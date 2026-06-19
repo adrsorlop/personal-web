@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.card {
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 240ms cubic-bezier(.2,.8,.2,1), box-shadow 240ms cubic-bezier(.2,.8,.2,1);
+  will-change: transform, box-shadow;
+  cursor: pointer;
+}
+
+.card:hover,
+.card:focus-within {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.card:active {
+  transform: translateY(-4px) scale(0.995);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+h3 {
+  color: white;
+}
+
+main {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 96px 16px 0; /* espacio superior para header fijo + separación previa */
+  color: #e6eef8;
+}
+
+main section {
+  padding: 28px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+main h2 {
+  margin: 0 0 8px 0;
+  color: #ffffff;
+}
+
+main p {
+  margin: 0;
+  color: rgba(230,238,248,0.85);
+}
