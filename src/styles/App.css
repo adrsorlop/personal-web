@@ -37,6 +37,51 @@
   padding-bottom: 8px;
 }
 
+.project-card {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 300px;
+  background: linear-gradient(0deg, #270909, #120652);
+}
+
+.project-card-content {
+  display: flex;
+  align-items: stretch;
+  min-height: 260px;
+}
+
+.projectTitle {
+  color: #ffffff;
+}
+
+.project-card-image {
+  width: 20%;
+  object-fit: cover;
+  min-height: 100%;
+  max-width: 50%;
+}
+
+.project-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+}
+
+@media (max-width: 768px) {
+  .project-card-content {
+    flex-direction: column;
+  }
+
+  .project-card-image {
+    width: 100%;
+    min-height: 180px;
+  }
+}
+
 .skill-stars {
   display: flex;
   justify-content: center;
