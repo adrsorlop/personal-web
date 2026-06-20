@@ -10,7 +10,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(150deg, #000000, #001a4d);
-  min-height: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #root {
