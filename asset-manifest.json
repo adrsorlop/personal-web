@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/personal-web/static/css/main.b1166439.css",
+    "main.js": "/personal-web/static/js/main.aa586420.js",
+    "static/js/453.461b4b71.chunk.js": "/personal-web/static/js/453.461b4b71.chunk.js",
+    "static/media/EQ.png": "/personal-web/static/media/EQ.52b692c68a2af458f961.png",
+    "static/media/bootstrap-icons.woff?": "/personal-web/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/HeavyInfantry.jpg": "/personal-web/static/media/HeavyInfantry.e4c12c6145d93043ee0a.jpg",
+    "static/media/bootstrap-icons.woff2?": "/personal-web/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "static/media/MySQL.png": "/personal-web/static/media/MySQL.02c505a0cdbec97e7efb.png",
+    "static/media/Bootstrap.png": "/personal-web/static/media/Bootstrap.f2a847a98cbd995bebba.png",
+    "static/media/NodeJS.png": "/personal-web/static/media/NodeJS.e486ab6d723f70416e74.png",
+    "static/media/Kotlin.png": "/personal-web/static/media/Kotlin.690a489d43de163b01c7.png",
+    "static/media/React.png": "/personal-web/static/media/React.b7e765d3297b1e2b9f8b.png",
+    "static/media/C++.png": "/personal-web/static/media/C++.21cdedb6cd8cbdd747a0.png",
+    "static/media/Git.png": "/personal-web/static/media/Git.8543b6731e3444021052.png",
+    "static/media/CSS.png": "/personal-web/static/media/CSS.5764a19d7e062f03af1a.png",
+    "static/media/ProjectWeb.jpg": "/personal-web/static/media/ProjectWeb.6f0578c4425b94fc87f1.jpg",
+    "static/media/HTML.png": "/personal-web/static/media/HTML.a6c15dd1d48cb23b3a93.png",
+    "static/media/GitHub.png": "/personal-web/static/media/GitHub.7a1017c55f8fa1abd900.png",
+    "static/media/Java.png": "/personal-web/static/media/Java.7a2aa6ad3a281e612214.png",
+    "static/media/Diversion.png": "/personal-web/static/media/Diversion.1b77f93f80d6c4c48371.png",
+    "index.html": "/personal-web/index.html",
+    "main.b1166439.css.map": "/personal-web/static/css/main.b1166439.css.map",
+    "main.aa586420.js.map": "/personal-web/static/js/main.aa586420.js.map",
+    "453.461b4b71.chunk.js.map": "/personal-web/static/js/453.461b4b71.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1166439.css",
+    "static/js/main.aa586420.js"
+  ]
+}
