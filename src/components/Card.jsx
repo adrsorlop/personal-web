@@ -30,6 +30,7 @@ export default function Card({ title, type, level }) {
                 <img src={imgSrc} alt="Card image" style={{ paddingTop: '20px' }} />
                 <h5>{title}</h5>
             </div>
+            <br/>
             <div className="skill-stars">{getSkillLevel(level)}</div>
         </>
     )

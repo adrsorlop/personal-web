@@ -10,15 +10,13 @@ export default function About() {
       <h2>Sobre mi</h2>
       <p>Breve descripción sobre mí.</p>
       <Container>
-        <Row>
-          <Col sm={4}><Skill title="Código limpio" img="bi bi-stars" /></Col>
-          <Col sm={4}><Skill title="Trabajo en equipo" img="bi bi-people" /></Col>
-          <Col sm={4}><Skill title="Versátil" img="bi bi-arrows-fullscreen" /></Col>
-        </Row>
-        <Row>
-          <Col sm={4}><Skill title="Aprendizaje rápido" img="bi bi-journal-text" /></Col>
-          <Col sm={4}><Skill title="Ambicioso" img="bi bi-person-arms-up" /></Col>
-          <Col sm={4}><Skill title="Optimización" img="bi bi-bar-chart-line-fill" /></Col>
+        <Row xs={1} sm={2} md={3} className="g-4">
+          <Col><Skill title="Código limpio" img="bi bi-stars" /></Col>
+          <Col><Skill title="Trabajo en equipo" img="bi bi-people" /></Col>
+          <Col><Skill title="Versátil" img="bi bi-arrows-fullscreen" /></Col>
+          <Col><Skill title="Aprendizaje rápido" img="bi bi-journal-text" /></Col>
+          <Col><Skill title="Ambicioso" img="bi bi-person-arms-up" /></Col>
+          <Col><Skill title="Optimización" img="bi bi-bar-chart-line-fill" /></Col>
         </Row>
       </Container>
     </section>
