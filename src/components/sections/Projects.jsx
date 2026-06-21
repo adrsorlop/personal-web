@@ -30,7 +30,10 @@ export default function Projects() {
   return (
     <section id="projects">
       <h2>Mis proyectos</h2>
-      <p>Proyectos destacados.</p>
+      <p>No sólo he adquirido nuevos conocimentos, también los he puesto en práctica, desarrollando algunos proyectos algo más complejos y elaborados.
+        Cuando empiezo un proyecto, me gusta hacer las cosas bien desde un principio, tener mis objetivos claros y ejecutarlos de la manera más óptima
+        posible. A continuación, podéis ver algunos de mis proyectos junto a sus repositorios en el caso de que os interese cómo está construido.
+      </p>
       <br/>
       <Carousel>
         {projects.map((project, index) => (

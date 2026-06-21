@@ -28,7 +28,7 @@ export default function Header() {
           <li className="nav-item"><a href="#about" onClick={() => setOpen(false)}>Sobre mi</a></li>
           <li className="nav-item"><a href="#skills" onClick={() => setOpen(false)}>Mis conocimientos</a></li>
           <li className="nav-item"><a href="#projects" onClick={() => setOpen(false)}>Mis proyectos</a></li>
-          <li className="nav-item"><a href="#contact" onClick={() => setOpen(false)}>Contacto</a></li>
+          <li className="nav-item"><a href="#contact" onClick={() => setOpen(false)}>Dónde encontrarme</a></li>
         </ul>
       </nav>
     </header>

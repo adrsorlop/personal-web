@@ -77,12 +77,14 @@ export default function Skills() {
   return (
     <section id="skills">
       <h2>Mis conocimientos</h2>
-      <p>Lista de tecnologías y habilidades.</p>
+      <p>A lo largo de estos últimos años, he ido adquiriendo conocimientos útiles sobre distintos lenguajes de programación, herramientas,
+        entornos de desarrollo, ... Uno de mis objetivos es compartir estos conocimientos con los demás y usarlos para construir cosas útiles.
+      </p>
       <br />
       <h3>Lenguajes de programación</h3>
       <hr />
       <Container>
-        <Row xs={1} sm={2} md={3} className="g-4 justify-content-center">
+        <Row xs={2} sm={3} md={5} className="g-4 justify-content-center">
           {knowledge.map((card, index) => {
 
             if (card.type == 'lang') {
@@ -99,7 +101,7 @@ export default function Skills() {
       <h3>Desarrollo web</h3>
       <hr />
       <Container>
-        <Row xs={1} sm={2} md={3} className="g-4 justify-content-center">
+        <Row xs={2} sm={3} md={5} className="g-4 justify-content-center">
           {knowledge.map((card, index) => {
 
             if (card.type == 'web') {
@@ -116,7 +118,7 @@ export default function Skills() {
       <h3>Control de versiones</h3>
       <hr />
       <Container>
-        <Row xs={1} sm={2} md={3} className="g-4 justify-content-center">
+        <Row xs={2} sm={3} md={5} className="g-4 justify-content-center">
           {knowledge.map((card, index) => {
 
             if (card.type == 'version') {
