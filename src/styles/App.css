@@ -100,8 +100,6 @@
   padding: 16px;
   margin: 0 auto;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 200px;
-  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -109,6 +107,20 @@
   transition: transform 240ms cubic-bezier(.2,.8,.2,1), box-shadow 240ms cubic-bezier(.2,.8,.2,1);
   will-change: transform, box-shadow;
   background: linear-gradient(0deg, #3d0f0f, #b40000);
+}
+
+@media (min-width: 375px) {
+  .skill-card {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (min-width: 425px) {
+  .skill-card {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 .skill-card:hover,
