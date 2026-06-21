@@ -16,6 +16,14 @@
   border: 0px;
   margin: auto;
   padding: 16px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s ease-out;
+}
+
+.card.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .card:hover,
@@ -28,27 +36,27 @@
   transform: translateY(-4px) scale(0.995);
 }
 
-.card img {
+.cardImg {
   width: 70%;
   height: auto;
-  border-radius: 4px;
+  border-radius: 20px;
   display: block;
   margin: 0 auto;
   padding-bottom: 8px;
 }
 
 .project-card {
-  width: 80%;
-  max-width: 900px;
+  width: 100%;
   margin: 0 auto;
   border-radius: 20px;
   overflow: hidden;
   height: fit-content;
   background: linear-gradient(0deg, #270909, #120652);
+  opacity: 1;
+  margin-bottom: 75px;
 }
 
 .project-card-content {
-  display: flex;
   align-items: stretch;
   min-height: 260px;
 }
@@ -57,12 +65,14 @@
   color: #ffffff;
 }
 
-.project-card-image {
-  width: 20%;
-  object-fit: cover;
-  max-width: 50%;
-  max-height: 300px;
+.projectImg {
+  max-width: 100%;
+  height: 300px;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
 }
+
 
 .project-card-body {
   display: flex;

@@ -1,4 +1,23 @@
+import { useEffect, useRef } from "react";
+
 export default function Card({ title, type, level }) {
+
+    const ref = useRef();
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("show");
+                    }
+                });
+            },
+            { threshold: 0.2 }
+        );
+
+        observer.observe(ref.current);
+    }, []);
 
     const imgSrc = require(`../images/logos/${title}.png`);
     var color;
@@ -26,11 +45,11 @@ export default function Card({ title, type, level }) {
 
     return (
         <>
-            <div className="card" style={{ background: `linear-gradient(150deg, #161616, ${color})` }}>
-                <img src={imgSrc} alt="Card image" style={{ paddingTop: '20px' }} />
+            <div ref={ref} className="card" style={{ background: `linear-gradient(150deg, #161616, ${color})` }}>
+                <img src={imgSrc} alt="Card image" style={{ paddingTop: '20px' }} className="cardImg" />
                 <h5>{title}</h5>
             </div>
-            <br/>
+            <br />
             <div className="skill-stars">{getSkillLevel(level)}</div>
         </>
     )
