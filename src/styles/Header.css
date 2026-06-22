@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 64px;
+  height: 100px;
   display: flex;
   align-items: center;
   padding: 12px 24px;
@@ -35,7 +35,10 @@
   text-decoration: none;
   font-weight: 600;
   padding: 6px 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   border-radius: 6px;
+  font-size: 25px;
 }
 
 .nav-item a:hover,
@@ -53,6 +56,8 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  margin-right: 0px;
+  margin-left: auto;
 }
 
 .hamburger {
@@ -101,8 +106,8 @@
   .nav-list {
     display: none;
     position: absolute;
-    top: 64px;
-    left: 12px;
+    top: 100px;
+    left: 130px;
     background: rgba(0,0,0,0.7);
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
