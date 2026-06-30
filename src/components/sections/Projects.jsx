@@ -15,21 +15,17 @@ export default function Projects() {
   const projects = [
     {
       title: 'Esta misma web',
-      description: 'Página web que muestra mis conocimientos y habilidades. '+'Realizada usando React-Bootstrap y desplegada mediante GitHub Pages, este es mi proyecto más reciente.',
+      description: 'Página web que muestra mis conocimientos y habilidades. Realizada usando React-Bootstrap y desplegada mediante GitHub Pages, este es mi proyecto más reciente. Ha sido realizada de una manera modular, la cual permite expandir los contenidos de manera fácil y rápida.',
       images: WebImages,
+      categories: ['personal', 'web'],
       link: 'https://github.com/adrsorlop/personal-web',
     },
     {
       title: 'Command & Conquer',
       description: 'Juego de estrategia y gestión de recursos para dos jugadores en local. '+'Enfréntate a tu oponente y captura su base en un tablero que puedes personalizar, utilizando unidades predefinidas o creando tú las tuyas.'+'Se usó Node.js, Electron-Vite, React-Bootstrap y JavaScript.',
       images: CCImages,
+      categories: ['instituto', 'aplicacion'],
       link: 'https://github.com/adrsorlop/command-conquer',
-    },
-    {
-      title: "Elfred's Quest",
-      description: 'Juego de plataformas, combate y exploración para un jugador desarrollado en Unreal Engine.',
-      images: EQImages,
-      link: 'https://ads0l0.itch.io/elfreds-quest',
     }
   ];
 
@@ -47,6 +43,7 @@ export default function Projects() {
           description={project.description}
           images={project.images}
           link={project.link}
+          categories={project.categories}
         />
       ))}
     </section>

@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-export default function Project({ title, description, images, link }) {
+export default function Project({ title, description, images, link, categories }) {
 
   const [zoomImage, setZoomImage] = useState(null);
 
@@ -36,9 +36,47 @@ export default function Project({ title, description, images, link }) {
     }
   }
 
+  function getCategoryCards(categories) {
+    return categories.map(category => {
+      switch (category) {
+        case 'web':
+          return (
+            <Card key={category} className="tag-card tag-web">
+              <Card.Body>Web</Card.Body>
+            </Card>
+          );
+
+        case 'aplicacion':
+          return (
+            <Card key={category} className="tag-card tag-aplicacion">
+              <Card.Body>Aplicación</Card.Body>
+            </Card>
+          );
+
+        case 'instituto':
+          return (
+            <Card key={category} className="tag-card tag-instituto">
+              <Card.Body>Instituto</Card.Body>
+            </Card>
+          );
+
+        case 'personal':
+          return (
+            <Card key={category} className="tag-card tag-personal">
+              <Card.Body>Personal</Card.Body>
+            </Card>
+          );
+      }
+    });
+  }
+
+
   return (
     <>
       <Card className="project-card">
+        <div className="category-tags">
+          {getCategoryCards(categories)}
+        </div>
         <div className="project-card-content">
           <h3>{title}</h3>
           <hr style={{ color: 'white', marginLeft: 0, width: '100%' }} />
@@ -56,7 +94,6 @@ export default function Project({ title, description, images, link }) {
         </div>
       </Card>
 
-      {/* Overlay de imagen ampliada */}
       {zoomImage && (
         <div
           className="zoom-overlay"

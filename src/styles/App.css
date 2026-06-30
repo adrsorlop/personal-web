@@ -223,3 +223,49 @@ main p {
   margin: 0;
   color: rgba(230,238,248,0.85);
 }
+
+.category-tags {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  gap: 8px;
+  padding-bottom: 40px;
+}
+
+.category-tags .card {
+  padding: 0px;
+  font-size: 1rem;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.project-card {
+  position: relative;
+}
+
+.tag-card {
+  display: inline-block;
+  width: auto;    
+  height: auto;            
+  border-radius: 12px;
+  font-size: 1rem;
+  color: white;
+  font-weight: 600;
+}
+
+.tag-web {
+  background: rgba(0, 123, 255, 0.5);
+}
+
+.tag-aplicacion {
+  background-color: rgb(40, 167, 69, 0.5);
+}
+
+.tag-instituto {
+  background-color: rgb(253, 126, 20, 0.5);
+}
+
+.tag-personal {
+  background-color: rgb(111, 66, 193, 0.5);
+}
