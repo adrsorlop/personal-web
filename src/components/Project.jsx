@@ -66,6 +66,20 @@ export default function Project({ title, description, images, link, categories }
               <Card.Body>Personal</Card.Body>
             </Card>
           );
+
+          case 'movil':
+          return (
+            <Card key={category} className="tag-card tag-movil">
+              <Card.Body>Móvil</Card.Body>
+            </Card>
+          );
+
+          case 'escritorio':
+          return (
+            <Card key={category} className="tag-card tag-escritorio">
+              <Card.Body>Escritorio</Card.Body>
+            </Card>
+          );
       }
     });
   }

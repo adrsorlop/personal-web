@@ -8,13 +8,11 @@ export default function Contact() {
       <h2>Dónde encontrarme</h2>
       <Container className='contactTable'>
         <Row style={{border: '3px solid rgb(255, 255, 255, 0.5)'}}>
-          <Col className='contactTableElement'>
-            <a href='https://github.com/adrsorlop'><i class="bi bi-github" style={{ fontSize: '6rem', padding: '10px' }}></i></a>GitHub
+          <Col>
+            <a href='https://github.com/adrsorlop'><i class="bi bi-github" style={{ fontSize: '6rem', padding: '10px' }}></i></a>
           </Col>
-        </Row>
-        <Row style={{border: '3px solid rgb(255, 255, 255, 0.5)'}}>
-          <Col className='contactTableElement'>
-            <a href='https://www.linkedin.com/in/adrian-soriano-389411347/'><i class="bi bi-linkedin" style={{ fontSize: '6rem', padding: '10px' }}></i></a>LinkedIn
+          <Col>
+            <a href='https://www.linkedin.com/in/adrian-soriano-389411347/'><i class="bi bi-linkedin" style={{ fontSize: '6rem', padding: '10px' }}></i></a>
           </Col>
         </Row>
       </Container>

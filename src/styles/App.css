@@ -191,14 +191,9 @@ table {
   background: linear-gradient(-45deg, #100835, #1a10a1);
   border: 5px solid white;
   border-radius: 20px;
-  text-align: left;
-}
-
-.contactTableElement {
-  text-align: left;
-  font-family: 'Courier New', Courier, monospace;
-  margin: auto;
-  font-size: 2rem;
+  text-align: center;
+  width: 50%;
+  margin-left: 0px;
 }
 
 main {
@@ -268,4 +263,12 @@ main p {
 
 .tag-personal {
   background-color: rgb(111, 66, 193, 0.5);
+}
+
+.tag-movil {
+  background-color: rgba(178, 189, 25, 0.5);
+}
+
+.tag-escritorio {
+  background-color: rgba(189, 25, 25, 0.5);
 }
