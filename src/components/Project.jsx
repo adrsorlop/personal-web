@@ -36,6 +36,15 @@ export default function Project({ title, description, images, link, categories }
     }
   }
 
+  function hasLink(link) {
+    if(link.length < 1){
+      return(<></>)
+    }
+    else{
+      return(<Card.Link href={link}>Ver proyecto</Card.Link>)
+    }
+  }
+
   function getCategoryCards(categories) {
     return categories.map(category => {
       switch (category) {
@@ -101,7 +110,7 @@ export default function Project({ title, description, images, link, categories }
             <Col xs={12} sm={6} md={6}>
               <Card.Body className="project-card-body">
                 <Card.Text>{description}</Card.Text>
-                <Card.Link href={link}>Ver proyecto</Card.Link>
+                {hasLink(link)}
               </Card.Body>
             </Col>
           </Row>

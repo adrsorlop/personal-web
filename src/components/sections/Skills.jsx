@@ -18,14 +18,14 @@ export default function Skills() {
       level: 4
     },
     {
+      title: 'Python',
+      type: 'lang',
+      level: 3
+    },
+    {
       title: 'C++',
       type: 'lang',
       level: 4
-    },
-    {
-      title: 'Kotlin',
-      type: 'lang',
-      level: 3
     },
     {
       title: 'MySQL',
@@ -66,11 +66,6 @@ export default function Skills() {
       title: 'GitHub',
       type: 'version',
       level: 4
-    },
-    {
-      title: 'Diversion',
-      type: 'version',
-      level: 5
     }
   ];
 

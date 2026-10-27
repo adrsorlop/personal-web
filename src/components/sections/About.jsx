@@ -9,10 +9,10 @@ export default function About() {
     <section id="about">
       <h2>Sobre mi</h2>
       <p>
-        Buenas, soy Adrián Soriano, un jóven de 20 años graduado en Desarrollo de Aplicaciones Multiplataforma (DAM) y Desarrollo de Videojuegos y Realidad Virtual.
-        Mi pasión por la programación empezó hace unos años, en la Educación Secundaria Obligatoria, cuando me presentaron la asignatura de Informática. En ese momento,
-        me di cuenta de que podía crear mis propios programas y códigos, y el ver que funcionaban o que eran útiles, me hizo saber al instante que me quería dedicar a
-        esto. Desde entonces, he pasado por múltiples lenguajes de programación y entornos de desarrollo.
+        Buenas, soy Adrián Soriano, un jóven de 21 años graduado en Desarrollo de Aplicaciones Multiplataforma (DAM) y actualmente estoy estudiando Inteligencia 
+        Artificial y BigData. Mi pasión por la programación empezó hace unos años, en la Educación Secundaria Obligatoria, cuando me presentaron la asignatura de 
+        Informática. En ese momento, me di cuenta de que podía crear mis propios programas y códigos, y el ver que funcionaban o que eran útiles, me hizo saber 
+        al instante que me quería dedicar a esto. Desde entonces, he pasado por múltiples lenguajes de programación y entornos de desarrollo.
       </p>
       <br/>
       <p>
